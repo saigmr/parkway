@@ -1,0 +1,4 @@
+Flask==2.x
+Flask-SQLAlchemy==3.x
+qrcode==7.x
+Pillow==9.x
