@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Profile</title>
+</head>
+<body>
+    <h1>Welcome, {{ user.name }}</h1>
+    <h2>Your Bookings:</h2>
+    <ul>
+        {% for booking in bookings %}
+            <li>{{ booking.mall_name }} - {{ booking.slot_time }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
